@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Assistant Sidebar</title>
+    <icon> <link rel="icon" href="icon.png"></icon>
+    <meta
+      name="description"
+      content="A simple AI chat sidebar for your browser that works with your own API keys for OpenAI, Google Gemini, and Claude."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="brand" aria-label="AI Assistant Sidebar home">
+          AI Assistant Sidebar
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#download">Download</a>
+          <a href="#faq">FAQ</a>
+          <a href="#info">Info</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-inner">
+          <h1>AI chat in your browser sidebar</h1>
+          <p class="hero-tagline">
+            No need to leave your current tab, chat with an AI Assistant in a clean, non-intrusive sidebar, powered by your favorite AI
+            models.
+          </p>
+          <div class="hero-actions">
+            <a
+              href="https://example.com"
+              class="btn btn-primary btn-large"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Install for Chrome (coming soon)
+            </a>
+            <a
+              href="https://addons.mozilla.org/en-US/firefox/addon/ai-assistant-sidebar/"
+              class="btn btn-primary btn-large"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Install for Firefox
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="download" class="section">
+        <div class="container">
+          <h2>Download</h2>
+          <p class="section-intro">
+            Choose the quickest way to start using the AI Assistant Sidebar in your browser. Reliability varies on non-mainstream browsers.
+          </p>
+          <div class="download-grid">
+            <article class="card">
+              <h3>For Gecko-based browsers</h3>
+              <p>
+                Install the latest version from the Mozilla Add-ons store. For Gecko-based browsers like Firefox, LibreWolf, ZenBrowser, and others. Recieves automatic updates.
+              </p>
+              <a
+                href="https://addons.mozilla.org/en-US/firefox/addon/ai-assistant-sidebar/"
+                class="btn btn-secondary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open Firefox Add-ons
+              </a>
+            </article>
+
+            <article class="card">
+              <h3>For Chromium-based browsers</h3>
+              <p>
+                Install the latest version from the Chrome Web Store. For Chromium-based browsers like Google Chrome, Edge, Brave, Opera, and others. Recieves automatic updates.
+              </p>
+              <a href="https://example.com" class="btn btn-secondary" target="_blank" rel="noreferrer">
+                Opne Chrome Web Store
+              </a>
+            </article>
+
+            <article class="card">
+              <h3>Manual download from GitHub</h3>
+              <p>
+                Prefer to inspect or customize the code? Grab the latest packaged release and load it into your browser
+                manually.
+              </p>
+              <a
+                href="https://github.com/Woobat-8/AI-Sidebar-Extension/releases"
+                class="btn btn-secondary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open GitHub Releases
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section">
+        <div class="container">
+          <h2>FAQ</h2>
+          <div class="faq-list">
+            <article class="faq-item">
+              <h3>Which AI providers are supported?</h3>
+              <p>
+                The sidebar works with popular providers including OpenAI, Google Gemini, and Claude, so you can choose
+                the models that fit your workflow.
+              </p>
+            </article>
+            <article class="faq-item">
+              <h3>Do I need my own API key?</h3>
+              <p>
+                Yes. You connect your own API keys from the provider you prefer. Keys are stored locally in your
+                browser's extension storage and are only sent to the selected provider.
+              </p>
+            </article>
+            <article class="faq-item">
+              <h3>Is there a free option?</h3>
+              <p>
+                Some providers, like Google Gemini, offer free usage tiers with limits. Check your provider's pricing
+                page for current details.
+              </p>
+            </article>
+            <article class="faq-item">
+              <h3>Where can I report bugs or request features?</h3>
+              <p>
+                Issues and feature requests are tracked on GitHub. Visit the repository's issues page to file a report
+                or share ideas.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="info" class="section">
+        <div class="container">
+          <h2>Info</h2>
+          <p class="section-intro">
+            AI Assistant Sidebar keeps your conversations close at hand while you work, so you can stay focused on the
+            page in front of you.
+          </p>
+
+          <div class="info-columns">
+            <div>
+              <h3>Highlights</h3>
+              <ul class="bullet-list">
+                <li>Works as a slim sidebar alongside your current tab.</li>
+                <li>Connects to multiple providers using your own API keys.</li>
+                <li>Designed for quick back-and-forth chat while browsing.</li>
+                <li>Built to be simple, focused, and distraction-free.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Providers & models</h3>
+              <ul class="bullet-list">
+                <li>OpenAI models for general-purpose and coding tasks.</li>
+                <li>Google Gemini models with generous free tiers for many users.</li>
+                <li>Claude support and other providers planned as the project evolves.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          © 2026
+          <a href="https://github.com/Woobat-8" target="_blank" rel="noreferrer">Woobat8</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
+
