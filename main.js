@@ -1,3 +1,4 @@
+// © 2026 Woobat8
 document.addEventListener("DOMContentLoaded", () => {
   const nav = document.querySelector(".site-nav");
   const toggle = document.querySelector(".nav-toggle");

@@ -1,3 +1,4 @@
+<!-- © 2026 Woobat8 -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -29,7 +30,7 @@
         <nav class="site-nav" aria-label="Primary">
           <a href="#download">Download</a>
           <a href="#faq">FAQ</a>
-          <a href="#info">Info</a>
+          <a href="#api-keys">API Keys</a>
         </nav>
       </div>
     </header>
@@ -91,15 +92,15 @@
                 Install the latest version from the Chrome Web Store. For Chromium-based browsers like Google Chrome, Edge, Brave, Opera, and others. Recieves automatic updates.
               </p>
               <a href="https://example.com" class="btn btn-secondary" target="_blank" rel="noreferrer">
-                Opne Chrome Web Store
+                Open Chrome Web Store
               </a>
             </article>
 
             <article class="card">
               <h3>Manual download from GitHub</h3>
               <p>
-                Prefer to inspect or customize the code? Grab the latest packaged release and load it into your browser
-                manually.
+                The extension's source code can be found here. You can freely modify the code and build your own version of the extension.
+                The GitHub version, and any modified versions, will not recieve automatic updates.
               </p>
               <a
                 href="https://github.com/Woobat-8/AI-Sidebar-Extension/releases"
@@ -150,30 +151,29 @@
         </div>
       </section>
 
-      <section id="info" class="section">
+      <section id="api-keys" class="section">
         <div class="container">
-          <h2>Info</h2>
+          <h2>API Keys</h2>
           <p class="section-intro">
-            AI Assistant Sidebar keeps your conversations close at hand while you work, so you can stay focused on the
-            page in front of you.
+            AI Assistant Sidebar uses your own API keys. One easy way to get started is with a Google Gemini key, which
+            many users can access on a free tier.
           </p>
 
           <div class="info-columns">
             <div>
-              <h3>Highlights</h3>
+              <h3>Get a free Gemini API key</h3>
               <ul class="bullet-list">
-                <li>Works as a slim sidebar alongside your current tab.</li>
-                <li>Connects to multiple providers using your own API keys.</li>
-                <li>Designed for quick back-and-forth chat while browsing.</li>
-                <li>Built to be simple, focused, and distraction-free.</li>
+                <li>Sign in to your Google account and go to <a href="https://aistudio.google.com/api-keys" target="_blank" rel="noreferrer">Google AI Studio</a>.</li>
+                <li>Choose to create a new API key in a fresh project.</li>
+                <li>Once the key is generated, copy it and store it somewhere safe. You typically cannot view it again later.</li>
               </ul>
             </div>
             <div>
-              <h3>Providers & models</h3>
+              <h3>Use your key in the extension</h3>
               <ul class="bullet-list">
-                <li>OpenAI models for general-purpose and coding tasks.</li>
-                <li>Google Gemini models with generous free tiers for many users.</li>
-                <li>Claude support and other providers planned as the project evolves.</li>
+                <li>Open the extension’s options page from your browser after installation.</li>
+                <li>Select Gemini as your provider and paste your API key into the field provided.</li>
+                <li>Pick the recommended model, save your settings, and you’re done.</li>
               </ul>
             </div>
           </div>
